@@ -1,0 +1,83 @@
+node-bytes (3.1.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-bytes: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Tue, 12 Oct 2021 10:01:05 +0200
+
+node-bytes (3.1.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Jelmer Vernooĳ ]
+  * Use secure copyright file specification URI.
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto test & install
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * New upstream version 3.1.0
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 27 Apr 2020 15:14:23 +0200
+
+node-bytes (3.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version
+  * Bump Standards-Version
+  * Fix 2 lintian warnings
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Tue, 31 Oct 2017 15:47:08 +0100
+
+node-bytes (2.4.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Imported Upstream version 2.4.0
+  * Standards-Version 3.9.8
+  * Debhelper compat 9
+  * Move repo from collab-maint to pkg-javascript
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Fri, 23 Dec 2016 15:30:57 +0100
+
+node-bytes (2.1.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 2.1.0
+  * Add new copyright holder
+  * Run tests
+  * Standards-Version 3.9.6
+
+ -- Jérémy Lal <kapouer@melix.org>  Mon, 26 Oct 2015 18:28:13 +0100
+
+node-bytes (1.0.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.0.0
+  * Standards-Version 3.9.5
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 14 Jun 2014 21:22:45 +0200
+
+node-bytes (0.2.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #727833)
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 27 Oct 2013 15:44:30 +0100

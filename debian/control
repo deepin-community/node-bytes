@@ -1,0 +1,26 @@
+Source: node-bytes
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 13)
+ , mocha
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-bytes
+Vcs-Git: https://salsa.debian.org/js-team/node-bytes.git
+Homepage: https://github.com/visionmedia/bytes.js
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-bytes
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Byte string parser and formatter - Node.js module
+ This module parses strings representing an amount of bytes, like
+ 1kb, 2mb, 1gb; and inversely converts positive integers to a readable
+ format representing an amount of bytes.
+ It is useful for parsing or writing log files.
+ .
+ Node.js is an event-based server-side javascript engine.
